@@ -1,7 +1,9 @@
 <%= stylesheet_link_tag 'buttons', :plugin => 'redmine_omniauth_client' %>
 
 <% if Setting.plugin_redmine_omniauth_client['oauth_authentification'] %>
-	<%= link_to oauth_client_path(:back_url => back_url), :class=>"link-login" do %>
-		Mit Quaestur einloggen
-	<% end %>
+	<div class="div-login">
+		<%= link_to oauth_client_path(:back_url => back_url), :class=>"link-login" do %>
+			Mit Quaestur einloggen
+		<% end %>
+	</div>
 <% end %>
