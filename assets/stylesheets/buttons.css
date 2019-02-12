@@ -1,31 +1,5 @@
-.button-login {
-  display: inline-block;
-  border: none;
-  border-radius: 2px;
-  margin-top: 10px;
-  /*width: 135px;*/
-  height: 25px;
-  padding: 0;
-  width: 100%;
-  background-color: #fff;
-  cursor: pointer;
-}
-
-.button-login-text {
-  margin-left: auto;
-  margin-right: auto;
-  background: url(../images/bt_connect_portail.png) !important;
-  width: 423px;
-  height: 48px;
-  /* margin-left: -129px; */
-  margin-top: -5px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* background-repeat: no-repeat; */
-  /* overflow: hidden; */
-  /* z-index: 100; */
-  text-align: center;
+.link-login {
+	text-align: center;
 }
 
 .or-container {
@@ -56,6 +30,3 @@
   font-size: medium;
 }
 
-.no-pointer {
-  cursor: default;
-}
