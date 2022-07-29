@@ -1,5 +1,4 @@
 require 'redmine'
-require_dependency 'redmine_omniauth_client/hooks'
 
 Redmine::Plugin.register :redmine_omniauth_client do
   name 'Redmine OAuth Client plugin'
